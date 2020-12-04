@@ -1,0 +1,41 @@
+.bwahero{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-secondary{
+    padding: 15px 40px 15px 40px;
+    color: #173A56;
+    border:1px #758596;
+    font-size: 16px;
+    font-weight: bold;
+    background: none;
+}
+
+.btn-secondary:hover{
+    padding: 15px 40px 15px 40px;
+    color: white;
+}
+
+.bwahero h1{
+    font-weight: 700;
+    color: #2F281E !important;
+}
+
+.bwahero p{
+    font-weight: 400;
+}
+
+.navbar-nav .nav-link{
+    color: #2F281E;
+}
+
+@media (min-width: 320px) {
+    .btn-secondary{
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+    .navbar-nav .nav-link{
+        text-align: center;
+    }
+}
